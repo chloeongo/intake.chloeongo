@@ -1,0 +1,73 @@
+body
+{background-color: rgb(0, 0, 0);
+}
+::-webkit-scrollbar {
+   display: none;
+}
+h1 {color: #FA198B;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+    }    
+p {color: #E7CFCD;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   text-align: center;
+}
+a {text-decoration: none;
+}
+.albums-row1 {display: flex;
+justify-content: space-evenly;
+}
+.albums-row1 a:hover {background-color: #B91372;
+}
+.albums-row2 {display: flex;
+justify-content: space-evenly;
+}
+.albums-row2 a:hover {background-color: #B91372;
+}
+.albums-row3 {display: flex;
+justify-content: space-evenly;
+}
+.albums-row3 a:hover {background-color: #B91372;
+}
+.albums-row4 {display: flex;
+    justify-content: space-evenly;
+    }
+.albums-row4 a:hover {background-color: #B91372;
+}
+    
+img {width: 300px; height: 300px;
+}
+.top-menu {
+   height: 0%;
+   width: 100%;
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.629);
+   overflow-y: hidden;
+   transition: 0.7s;
+   top: 60px;
+}
+ 
+ .top-menu a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #FA198B;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+ }
+ 
+.top-menu a:hover {
+    color: #B91372;
+ }
+ 
+.top-menu .cls_btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+ }
