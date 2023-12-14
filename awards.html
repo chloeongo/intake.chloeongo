@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Awards</title>
+<head>
+    <link rel="icon" type="image/png" href="dropout bear.png"/>
+    <link rel="stylesheet" href="external style fourth.css">
+
+</head>
+
+<nav class="top-menu">
+    <a href="#" class="cls_btn">×</a>
+    <a href="./index.html">Home</a>
+    <a href="./discography.html">Discography</a>
+    <a href="./biography.html">Biography</a>
+    <a href="./awards.html">Awards</a>
+ </nav>
+<h1 class="opn_btn">KanYeWest</h1>
+
+<script>
+   let opn_Btn = document.querySelector(".opn_btn");
+   let cls_Btn = document.querySelector(".cls_btn");
+   opn_Btn.addEventListener("click", () => {
+      document.querySelector(".top-menu").style.height = "100%";
+   });
+   cls_Btn.addEventListener("click", () => {
+      document.querySelector(".top-menu").style.height = "0";
+   });
+</script>
+
+<p>
+   <b>
+      <img src="https://www.nydailynews.com/wp-content/uploads/migration/2022/03/20/M3UMU2RLUVFU5BE523F7CQD5SI.jpg" title="Kanye Grammys" alt="Kanye Grammys"
+      style="float: left;width:550px;height: 450px; padding-left: 25px;">
+      West is the fourth-highest certified artist in the US by digital singles (69 million). He had the most RIAA digital song certifications by a male artist in the 2000s (19), and was the fourth best-selling digital songs artist of the 2000s in the US. In Spotify's first ten years from 2008 to 2018, West was the sixth most streamed artist, and the fourth fastest artist to reach one billion streams. West has the joint-most consecutive studio album to debut at number one on the Billboard 200 (9). He ranked third on Billboard's 2000s decade-end list of top producers and has topped the annual Pazz & Jop critics' poll the joint-most times (four albums) with Bob Dylan.
+   </b>
+   <span id="dots">...</span><span id="more">
+<br>
+<br>
+West has been nominated for 75 Grammys, out of which he has won 24. He has been the most nominated act at five ceremonies, and has received the fourth-most wins overall in the 2000s. In 2008, West became the first solo artist to have his first three albums receive nominations for Album of the Year. West has won a Webby Award for Artist of the Year, an Accessories Council Excellence Award for being a stylemaker, International Man of the Year at the GQ Awards, a Clio Award for The Life of Pablo Album Experience, and an honour by The Recording Academy. West is one of eight acts to have won the Billboard Artist Achievement Award. In 2015, he became the third rap act to win the Michael Jackson Video Vanguard Award.
+<br>
+<br>
+West's first six solo studio albums were included on Rolling Stone's 2020 list of the 500 Greatest Albums of All Time. Entertainment Weekly named The College Dropout the best album of the 2000s, Complex named Graduation the best album released between 2002 and 2012, 808s & Heartbreak was named by Rolling Stone as one of the 40 most groundbreaking albums of all time, The A.V. Club named My Beautiful Dark Twisted Fantasy the best album of the 2010s, Yeezus was the most critically acclaimed album of 2013 according to Metacritic, and The Life of Pablo was the first album to top the Billboard 200, go platinum in the US, and go gold in the UK, via streaming alone.
+</span>
+</p>
+
+<button onclick="myFunction()" id="ReadMoreBtn">Read more</button>
+
+<script>
+   function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("ReadMoreBtn");
+
+      if (dots.style.display === "none") {
+         dots.style.display = "inline";
+         btnText.innerHTML = "Read more";
+         moreText.style.display = "none";
+      }
+      else {
+         dots.style.display = "none";
+         btnText.innerHTML = "Read less";
+         moreText.style.display = "inline";
+      }
+   }
+</script>
+
+
+
+</body>
+</html>
