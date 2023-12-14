@@ -15,7 +15,7 @@ a {text-decoration: none;
 .top-menu {
    height: 0%;
    width: 100%;
-   position: fixed;
+   position: absolute;
    z-index: 1;
    top: 0;
    left: 0;
@@ -24,8 +24,7 @@ a {text-decoration: none;
    transition: 0.7s;
    top: 60px;
 }
- 
-.top-menu a {
+ .top-menu a {
     text-decoration: none;
     font-size: 25px;
     color: #FA198B;
@@ -35,11 +34,11 @@ a {text-decoration: none;
     text-align: center;
  }
  
- .top-menu a:hover {
+.top-menu a:hover {
     color: #B91372;
  }
  
- .top-menu .cls_btn {
+.top-menu .cls_btn {
     position: absolute;
     top: 0;
     right: 25px;
